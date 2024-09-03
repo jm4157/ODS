@@ -1,0 +1,24 @@
+[
+{
+    "action":"actor",
+    "actor":"plague",
+    "emotion":"confused",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"For me?\"",
+    "speaker":"Plague Knight"
+},
+{
+    "action":"actor",
+    "actor":"plague",
+    "emotion":"neutral",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"I'm sure it has some worthwhile alchemical properties.\"",
+    "speaker":"Plague Knight"
+}
+]

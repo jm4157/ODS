@@ -1,0 +1,259 @@
+[
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"neutral",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Now, Oolong need to come up with plan to switch lab partners.\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"determined",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Think, think, think.\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"happy",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Aha!\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Oolong know!\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"choice",
+    "choices":
+    [
+    {
+        "text":"Kidnap him",
+        "directions":
+        [
+            {
+                "action":"dialogue",
+                "speech":"\"Oolong just have to kidnap him.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"And keep him in Oolong's basement.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Then we can be super-friends forever!\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"nervous",
+                "position":"center"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Wait a second.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Oolong not very good at keeping pets.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"His hampsters always die.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"determined",
+                "position":"center"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Oolong not want him to die!\"",
+                "speaker":"Oolong"
+            }
+        ]
+    },
+    {
+        "text":"Disguise yourself",
+        "directions":
+        [
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"determined",
+                "position":"center"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"It actually super easy.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Oolong just disguise himself as horse man, and pretend to be lab partners.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"nervous",
+                "position":"center"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"But Oolong not know horse man's favorite color.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"If anyone ask, Oolong will be found out immediately.\"",
+                "speaker":"Oolong"
+            }
+        ]
+    },
+    {
+        "text":"Give up",
+        "directions":
+        [
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"nervous",
+                "position":"center"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Oolong just give up and go home.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"offstage",
+                "position":"center"
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"neutral",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Goodbye.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"offstage",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"You got",
+                "speaker":""
+            },
+            {
+                "action":"dialogue",
+                "speech":"You got the Bad Ending.",
+                "speaker":""
+            },
+            {
+                "action":"dialogue",
+                "speech":"",
+                "speaker":""
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"neutral",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Wait, did that say bad ending?\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"nervous",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"That not sound good at all!\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"offstage",
+                "position":"right"
+            }
+            
+        ]
+    }
+    ]
+},   
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"determined",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Which means that idea is a horrible idea.\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"nervous",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"But Oolong all out of better ideas.\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"happy",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Oolong know!\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"determined",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Oolong just have to ask someone else for help.\"",
+    "speaker":"Oolong"
+}
+]

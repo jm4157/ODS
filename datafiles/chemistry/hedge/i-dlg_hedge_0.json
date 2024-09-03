@@ -1,0 +1,104 @@
+[
+{
+	"action":"actor",
+	"actor":"hedge",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Good morning pupils.\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"dialogue",
+	"speech":"\"We're going to have a short activity during our lesson today.\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Do you need a tutorial on how to do the chemistry activity?\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"Yes",
+		"directions":
+		[
+			{
+				"action":"dialogue",
+				"speech":"\"In chemistry our activity will be a matching game.\"",
+				"speaker":"Hedge Professor"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"Flip over tiles to match potions of the same color.\"",
+				"speaker":"Hedge Professor"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"The twist is that there are multiple bottle shapes. Matching different shapes will decrease stability, while the same shape will increase stability.\"",
+				"speaker":"Hedge Professor"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"Failing to make a match at all will also decrease stability.\"",
+				"speaker":"Hedge Professor"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"You probably don't want it to reach the bottom.\"",
+				"speaker":"Hedge Professor"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"Of course, you also have to finish before the end of class, so there's a time limit.\"",
+				"speaker":"Hedge Professor"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"Are you ready?\"",
+				"speaker":"Hedge Professor"
+			},
+			{
+				"action":"choice",
+				"choices":
+				[
+				{
+					"text":"Yeah!",
+					"directions":
+					[]
+				},
+				{
+					"text":"No...",
+					"directions":
+					[]
+				}
+				]
+			}
+			
+		]
+	},
+	{
+		"text":"No",
+		"directions":
+		[]
+	}
+	]
+},
+{
+	"action":"dialogue",
+	"speech":"\"Alright, well good luck.\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"scene",
+	"destination":"hallway_a"
+},
+{
+	"action":"timeadvance"
+}
+]

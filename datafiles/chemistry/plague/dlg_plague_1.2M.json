@@ -1,0 +1,151 @@
+[
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"(Okay Oolong.)",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"(What best way to approach a stranger?)",
+	"speaker":"Oolong"
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"Be friendly",
+		"directions":
+		[
+			{
+                "action":"actor",
+                "actor":"mona",
+                "emotion":"confused",
+                "position":"right"
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"neutral",
+                "position":"left"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Hey there.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"You very pretty.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Can you give Oolong a hand with a problem he have?\"",
+                "speaker":"Oolong"
+            }
+        ]
+	},
+	{
+		"text":"Be direct",
+		"directions":
+		[
+			{
+                "action":"actor",
+                "actor":"mona",
+                "emotion":"confused",
+                "position":"right"
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"neutral",
+                "position":"left"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Hey there.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Oolong trying to figure out what love is.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Can you show him?\"",
+                "speaker":"Oolong"
+            }
+        ]
+	},
+    {
+		"text":"Be considerate",
+		"directions":
+		[
+			{
+                "action":"actor",
+                "actor":"mona",
+                "emotion":"confused",
+                "position":"right"
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"neutral",
+                "position":"left"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Hey there.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"It pretty stuffy in here, right?\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"If it too hot, Oolong can help you take off your clothes.\"",
+                "speaker":"Oolong"
+            }
+        ]
+	}
+	]
+},
+{
+    "action":"actor",
+    "actor":"mona",
+    "emotion":"angry",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Ew.\"",
+    "speaker":"Mona"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Stay away from me, creep.\"",
+    "speaker":"Mona"
+},
+{
+	"action":"changevar",
+	"val":"1",
+	"changetype":"decrement",
+	"variable":"FAVOR_MONA"
+},
+{
+	"action":"changevar",
+	"val":"1",
+	"changetype":"set",
+	"variable":"EVENT_MONADISGUSTED"
+}
+]

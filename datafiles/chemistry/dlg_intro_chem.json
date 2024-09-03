@@ -1,0 +1,120 @@
+[
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"determined",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech": "\"Alright, here Oolong is.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech": "\"Time to scope out the competition.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech": "\"Whoa...\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"mona",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech": "\"Amazing...\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"percy",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech": "\"So cool!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"nervous",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech": "\"Oh, these all look like very good scientists.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech": "\"Maybe Oolong should just give up...\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech": "...",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"determined",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech": "\"No!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech": "\"Oolong never give up on his dreams!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech": "\"And Oolong have a smart plan.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech": "\"Oolong will make friends with the smartest scientist, and study with them.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech": "\"Then Oolong and smart scientist will be a team!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech": "\"Now, who is best scientist to pick?\"",
+	"speaker":"Oolong"
+}
+]

@@ -1,0 +1,353 @@
+[
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"actor",
+	"actor":"foreman",
+	"emotion":"neutral",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Welcome to the company, Oolong.\"",
+	"speaker":"Foreman"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oolong excited to work here!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Now, since it's your first day you're going to take the mandatory safety training.\"",
+	"speaker":"Foreman"
+},
+{
+	"action":"dialogue",
+	"speech":"\"It's in the conference room just down the hall.\"",
+	"speaker":"Foreman"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"determined",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Yes sir!\"",
+	"speaker":"Oolong"
+},
+{
+    "action":"offstage",
+    "position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"...",
+	"speaker":"Oolong"
+},
+{
+    "action":"offstage",
+    "position":"left"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"nervous",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"That sound really boring...\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"You know what sound more fun?\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Operating a forklift!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"...",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"But Oolong never do that before.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Is it really good idea?\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"Yes",
+		"directions":[]
+    },
+    {
+		"text":"Yes!",
+		"directions":[]
+    },
+    {
+		"text":"HELL YES",
+		"directions":[]
+    }
+    ]
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oolong do it!\"",
+	"speaker":"Oolong"
+},
+{
+    "action":"offstage",
+    "position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"A few minutes later...",
+	"speaker":""
+},
+{
+	"action":"actor",
+	"actor":"forklift",
+	"emotion":"neutral",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Wheeeee!\"",
+	"speaker":"Oolong"
+},
+{
+    "action":"offstage",
+    "position":"right"
+},
+{
+	"action":"actor",
+	"actor":"forklift",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oolong was right, this is fun!\"",
+	"speaker":"Oolong"
+},
+{
+    "action":"offstage",
+    "position":"left"
+},
+{
+	"action":"actor",
+	"actor":"forklift",
+	"emotion":"neutral",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oolong could do this forever!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"foreman",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oolong!\"",
+	"speaker":"Foreman"
+},
+{
+	"action":"dialogue",
+	"speech":"\"What are you doing?\"",
+	"speaker":"Foreman"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Playing on the forklift!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"A forklift isn't a toy!\"",
+	"speaker":"Foreman"
+},
+{
+	"action":"dialogue",
+	"speech":"\"You're not forklift certified, and you aren't even wearing your Personal Protective Equipment.\"",
+	"speaker":"Foreman"
+},
+{
+	"action":"dialogue",
+	"speech":"\"It okay! Who going to stop Oolong?\"",
+	"speaker":"Oolong"
+},
+{
+    "action":"offstage",
+    "position":"all"
+},
+{
+	"action":"actor",
+	"actor":"osha",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hey it's me, OSHA.\"",
+	"speaker":"OSHA"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Just stopping in to see- GOOD LORD WHAT IS THAT?\"",
+	"speaker":"OSHA"
+},
+{
+    "action":"offstage",
+    "position":"center"
+},
+{
+	"action":"actor",
+	"actor":"osha",
+	"emotion":"neutral",
+	"position":"right"
+},
+{
+	"action":"actor",
+	"actor":"foreman",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"You. Are you in charge here?\"",
+	"speaker":"OSHA"
+},
+{
+	"action":"dialogue",
+	"speech":"Gulp",
+	"speaker":"Foreman"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Yes sir.\"",
+	"speaker":"Foreman"
+},
+{
+	"action":"dialogue",
+	"speech":"\"A forklift isn't a toy. This Oolad isn't forklift certified, nor does is he wearing his Personal Protection Equipment.\"",
+	"speaker":"OSHA"
+},
+{
+	"action":"dialogue",
+	"speech":"\"That's what I said!\"",
+	"speaker":"Foreman"
+},
+{
+	"action":"dialogue",
+	"speech":"\"I was just about to fire him, sir.\"",
+	"speaker":"Foreman"
+},
+{
+	"action":"dialogue",
+	"speech":"\"No, that won't be enough.\"",
+	"speaker":"OSHA"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Not this time.\"",
+	"speaker":"OSHA"
+},
+{
+	"action":"dialogue",
+	"speech":"\"He must be banished to the mountains, never to return.\"",
+	"speaker":"OSHA"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Unless of course some guy popped out of his head, removing his memories of being OSHA non-compliant.\"",
+	"speaker":"OSHA"
+},
+{
+	"action":"dialogue",
+	"speech":"\"But what are the odds of that?\"",
+	"speaker":"OSHA"
+},
+{
+	"action":"dialogue",
+	"speech":"\"I understand, sir.\"",
+	"speaker":"Foreman"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Goodbye forever, Oolong.\"",
+	"speaker":"Foreman"
+},
+{
+    "action":"offstage",
+    "position":"all"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"nervous",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"What?\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"scene",
+	"destination":"ENDING_NSFW"
+}
+]

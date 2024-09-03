@@ -1,0 +1,25 @@
+[
+{
+	"action":"actor",
+	"actor":"hedge",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"It's time for more chemistry.\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Today there's going to be more bottle shapes. Be careful.\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"timeadvance"
+},
+{
+	"action":"scene",
+	"destination":"HALLWAY_A"
+}
+]

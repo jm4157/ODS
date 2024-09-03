@@ -1,0 +1,25 @@
+[
+{
+	"action":"actor",
+	"actor":"hedge",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"This lab will be the ultimate test of what you've learned.\"",
+	"speaker":"Hedge Teacher"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Get ready for 50 percent more potions.\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"timeadvance"
+},
+{
+	"action":"scene",
+	"destination":"HALLWAY_A"
+}
+]

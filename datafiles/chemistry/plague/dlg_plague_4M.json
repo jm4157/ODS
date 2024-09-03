@@ -1,0 +1,270 @@
+[
+{
+	"action":"actor",
+	"actor":"hedge",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Alright class, I hope you've prepared for you first lab.\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Now, let's begin!\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"offstage",
+	"position":"center"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"nervous",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oh no, Oolong not get the right partner.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"directif",
+	"val":"0",
+	"variable":"FAVOR_MONA",
+	"operator":"atleast",
+	"directions":
+	[
+		{
+            "action":"actor",
+            "actor":"mona",
+            "emotion":"neutral",
+            "position":"right"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Hey, cheer up Oolong.\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"actor",
+            "actor":"mona",
+            "emotion":"happy",
+            "position":"right"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"At least you still get to be partners with me.\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"I'm totally prepped, so we'll blow through this lab in no time!\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"actor",
+            "actor":"mona",
+            "emotion":"neutral",
+            "position":"right"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"You ready?\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"choice",
+            "choices":
+            [
+            {
+                "text":"Huh?",
+                "directions":
+                []
+            },
+            {
+                "text":"Wha?",
+                "directions":
+                []
+            },
+            {
+                "text":"Pardon?",
+                "directions":
+                []
+            },
+            {
+                "text":"You say something?",
+                "directions":
+                []
+            }
+            ]
+        }
+        
+    ]
+},
+{
+	"action":"directif",
+	"val":"0",
+	"variable":"FAVOR_MONA",
+	"operator":"lessthan",
+	"directions":
+	[
+		{
+            "action":"actor",
+            "actor":"mona",
+            "emotion":"angry",
+            "position":"right"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Really? I'm stuck as your partner?\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"This is the worst.\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"actor",
+            "actor":"mona",
+            "emotion":"neutral",
+            "position":"right"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Well listen up.\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"You're going to do exactly as I say, exactly when I say it.\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Understood?\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"choice",
+            "choices":
+            [
+            {
+                "text":"Huh?",
+                "directions":
+                []
+            },
+            {
+                "text":"Wha?",
+                "directions":
+                []
+            },
+            {
+                "text":"Pardon?",
+                "directions":
+                []
+            },
+            {
+                "text":"You say something?",
+                "directions":
+                []
+            }
+            ]
+        }
+    ]
+},
+{
+    "action":"actor",
+    "actor":"mona",
+    "emotion":"angry",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Are you even listening to me?\"",
+    "speaker":"Mona"
+},
+{
+    "action":"offstage",
+    "position":"all"
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"actor",
+	"actor":"percy",
+	"emotion":"neutral",
+	"position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"",
+    "speaker":""
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"happy",
+	"position":"left"
+},
+{
+	"action":"actor",
+	"actor":"percy",
+	"emotion":"happy",
+	"position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"BOOM!!!",
+    "speaker":""
+},
+{
+    "action":"offstage",
+    "position":"all"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"nervous",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"Sigh",
+    "speaker":"Oolong"
+},
+{
+    "action":"dialogue",
+    "speech":"\"That look super fun...\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"determined",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Still, maybe Oolong can still be super-friends with him!\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"dialogue",
+    "speech":"\"You can't know unless you try!\"",
+    "speaker":"Oolong"
+},
+{
+	"action":"timeadvance"
+},
+{
+	"action":"timeadvance"
+}
+]

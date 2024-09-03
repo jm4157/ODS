@@ -1,0 +1,232 @@
+[
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hello, Oolong is Oolong, and he like to...\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"No, that not work.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hello, who are you? Oolong is Oolong!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"nervous",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"That even worse!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Come on Oolong, it Oolong’s first day at Rhode Island Community College, but also everyone else.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"determined",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Lots of people will want to be Oolong’s friend!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oolong is going to attend classes, meet new people, and maybe even...\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"Find… love?",
+		"directions":
+		[
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"confused",
+			"position":"center"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Lo-uve?\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong not sure what that is.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"happy",
+			"position":"center"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"But it sound tasty.\"",
+			"speaker":"Oolong"
+		}
+		]
+	},
+	{
+		"text":"Learn to read",
+		"directions":
+		[
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"neutral",
+			"position":"center"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"When Oolong learn to read he can find out what letter from college said.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"confused",
+			"position":"center"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"It look like no- nout, ace- abb- ack septed...\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"neutral",
+			"position":"center"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oh well, Oolong can come back to this once college teaches him to read.\"",
+			"speaker":"Oolong"
+		}
+		]
+	}
+	]
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oh, but look at the time!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oolong have to leave soon or he miss his class.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"But wait...\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Which class is Oolong in again?\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"Chemistry",
+		"directions":
+		[
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"determined",
+			"position":"center"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong going to work in a lab one day!\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"He can see it now, a clean laboratory full of white lab coats.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"And everyone being very safe so no one gets hurt, not like middle school at all.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong the head scientist, of course. Very important to science working.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong had better get to class to meet scientist friends. To assert Oolong's dominance.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"changevar",
+			"val":0,
+			"changetype":"set",
+			"variable":"major"
+		}
+		]
+	},
+	]
+}
+]

@@ -1,0 +1,35 @@
+[
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"neutral",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Nice attempt, but if you want to impress...\"",
+    "speaker":"Percy"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"blush",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"The Love Doctor.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"neutral",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"You're going to have to up your game.\"",
+    "speaker":"Percy"
+}
+]

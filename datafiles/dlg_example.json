@@ -1,0 +1,136 @@
+[
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"neutral",
+	"position":"right"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hello Oolong.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hello Doctor Knight.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"directif",
+	"val":0,
+	"variable":"favor_plague",
+	"operator":"greaterthan",
+	"directions":
+	[
+	{
+		"action":"actor",
+		"actor":"plague",
+		"emotion":"happy",
+		"position":"right"
+	},
+	{
+		"action":"dialogue",
+		"speech":"\"I can't believe we both like bombs!\"",
+		"speaker":"Plague Knight"
+	}
+	]
+	},
+	{
+		"action":"directif",
+		"val":"0",
+		"variable":"favor_plague",
+		"operator":"lessthan",
+		"directions":
+		[
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"angry",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"I don't want to talk to you anymore.\"",
+			"speaker":"Plague Knight"
+		}
+		]
+	},
+	{
+		"action":"directif",
+		"val":0,
+		"variable":"favor_plague",
+		"operator":"equals",
+		"directions":
+		[
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"confused",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Do you like bombs?\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"choice",
+			"choices":
+			[
+			{
+				"text":"Yes",
+				"directions":
+				[
+				{
+					"action":"actor",
+					"actor":"plague",
+					"emotion":"happy",
+					"position":"right"
+				},
+				{
+					"action":"dialogue",
+					"speech":"\"I'm so glad you like bombs!\"",
+					"speaker":"Plague Knight"
+				},
+				{
+					"action":"changevar",
+					"val":1,
+					"changetype":"increment",
+					"variable":"favor_plague"
+				}
+				]
+			},
+			{
+				"text":"No",
+				"directions":
+				[
+				{
+					"action":"dialogue",
+					"speech":"\"Oh...\"",
+					"speaker":"Plague Knight"
+				},
+				{
+					"action":"changevar",
+					"val":1,
+					"changetype":"decrement",
+					"variable":"favor_plague"
+				}
+				]
+			}
+			]
+		}
+		]
+	}
+]

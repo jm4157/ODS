@@ -1,0 +1,257 @@
+[
+{
+    "action":"changevar",
+    "val":"1",
+    "changetype":"set",
+    "variable":"EVENT_PLAGUEPARTNER"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+    "action":"actor",
+    "actor":"mona",
+    "emotion":"neutral",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"Testing: Mona's favor",
+    "speaker":""
+},
+{
+    "action":"directif",
+    "val":"0",
+    "variable":"FAVOR_MONA",
+    "operator":"lessthan",
+    "directions":
+    [
+        {
+            "action":"actor",
+            "actor":"mona",
+            "emotion":"angry",
+            "position":"right"
+        },
+        {
+            "action":"dialogue",
+            "speech":"FAILURE",
+            "speaker":""
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Don't even take a step closer.\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"I've had enough of you acting strange and insulting me.\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"If you don't stay away I'm going to get a restraining order.\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"And don't even worry about the lab partner thing. I've already asked the professor to switch our groups.\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Make sure I never see your face again.\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"offstage",
+            "position":"right"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Wow.\"",
+            "speaker":"Oolong"
+        },
+        {
+            "action":"actor",
+            "actor":"oolong",
+            "emotion":"happy",
+            "position":"left"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"She help Oolong change lab partners before he even ask!\"",
+            "speaker":"Oolong"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"What a kind lady.\"",
+            "speaker":"Oolong"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Oolong have to make sure to find her and thank her later.\"",
+            "speaker":"Oolong"
+        },
+        {
+            "action":"actor",
+            "actor":"oolong",
+            "emotion":"determined",
+            "position":"left"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"But first Oolong get through tomorrow and make super-friends!\"",
+            "speaker":"Oolong"
+        }
+    ]
+},
+{
+    "action":"directif",
+    "val":"0",
+    "variable":"FAVOR_MONA",
+    "operator":"atleast",
+    "directions":
+    [
+        {
+            "action":"dialogue",
+            "speech":"SUCCESS",
+            "speaker":""
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Oh hey there Oolong.\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"What's up?\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Oolong actually need your help.\"",
+            "speaker":"Oolong"
+        },
+        {
+            "action":"actor",
+            "actor":"mona",
+            "emotion":"confused",
+            "position":"right"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Remember when you told Oolong to change partners?\"",
+            "speaker":"Oolong"
+        },
+        {
+            "action":"actor",
+            "actor":"oolong",
+            "emotion":"nervous",
+            "position":"left"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Well Oolong can't figure out how to do it.\"",
+            "speaker":"Oolong"
+        },
+        {
+            "action":"actor",
+            "actor":"mona",
+            "emotion":"neutral",
+            "position":"right"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Hmm, that is a predicament.\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"actor",
+            "actor":"mona",
+            "emotion":"confused",
+            "position":"right"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Wait a second, isn't he partnered with Percy?\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"actor",
+            "actor":"mona",
+            "emotion":"neutral",
+            "position":"right"
+        },
+        {
+            "action":"actor",
+            "actor":"oolong",
+            "emotion":"confused",
+            "position":"left"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"He keeps bothering me about some weird club he wants me to enroll in, but I've been blowing him off so far.\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"actor",
+            "actor":"mona",
+            "emotion":"happy",
+            "position":"right"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"I can pretend to be interested, and lure him away during class time. With him and me gone, neither of you will have partners, and the professor will be forced to team you guys up!\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"actor",
+            "actor":"oolong",
+            "emotion":"happy",
+            "position":"left"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"That a perfect idea!\"",
+            "speaker":"Oolong"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Oolong happy his friends so smart!\"",
+            "speaker":"Oolong"
+        },
+        {
+            "action":"actor",
+            "actor":"mona",
+            "emotion":"blush",
+            "position":"right"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Thanks Oolong.\"",
+            "speaker":"Mona"
+        },
+        {
+            "action":"actor",
+            "actor":"mona",
+            "emotion":"neutral",
+            "position":"right"
+        },
+        {
+            "action":"dialogue",
+            "speech":"\"Let's hope everything goes smoothly tomorrow.\"",
+            "speaker":"Mona"
+        }
+    ]
+},
+{
+	"action":"timeadvance"
+},
+{
+	"action":"scene",
+	"destination":"FRIDAY"
+}
+]

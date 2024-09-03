@@ -1,0 +1,25 @@
+[
+{
+	"action":"actor",
+	"actor":"hedge",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Good morning pupils.\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"dialogue",
+	"speech":"\"We're going to have a short activity during our lesson today.\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"timeadvance"
+},
+{
+	"action":"scene",
+	"destination":"HALLWAY_A"
+}
+]

@@ -1,0 +1,66 @@
+[
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"That was pretty tough.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"In future releases Oolong bet he have mysterious force to guide him during activities like that.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Anyway, Oolong new friend in lo-uve with Oolong.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"That good thing!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Right?\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hmmm.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oolong not know very much about lo-uve.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"He should find someone to ask for help.\"",
+	"speaker":"Oolong"
+}
+]

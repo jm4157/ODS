@@ -1,0 +1,24 @@
+[
+{
+    "action":"changevar",
+    "val":1,
+    "changetype":"decrement",
+    "variable":"FAVOR_MONA"
+},
+{
+    "action":"actor",
+    "actor":"mona",
+    "emotion":"angry",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Ew.\"",
+    "speaker":"Mona"
+},
+{
+    "action":"dialogue",
+    "speech":"\"What made you think I would want something like this?\"",
+    "speaker":"Mona"
+}
+]

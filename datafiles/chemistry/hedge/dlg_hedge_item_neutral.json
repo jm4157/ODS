@@ -1,0 +1,18 @@
+[
+{
+    "action":"actor",
+    "actor":"hedge",
+    "emotion":"neutral",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Oh no, I'm afraid I'm not allowed to take gifts from students.\"",
+    "speaker":"Hedge Professor"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Someone might think it's a bribe.\"",
+    "speaker":"Hedge Professor"
+}
+]

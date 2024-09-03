@@ -1,0 +1,696 @@
+[
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"neutral",
+	"position":"right"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hello! Oolong looking for lab partners!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oh, you too? How excellent!\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"I already know everything about chemistry, so I'm actually here looking for competent scientists to recruit to my startup lab.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"I've scoped out a number of candidates, and all that remains is to test them.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"left"
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"Do you really know everything?",
+		"directions":
+		[
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"neutral",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Everything important, anyway.\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"happy",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Which chemicals explode on mixture, which combine to create toxic gasses, and which give off radiation, hee hee!\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"neutral",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"And of course, which elements are boring, and don't react much at all.\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"dialogue",
+			"speech":"(Wow, he so concerned with lab safety he know all the things to avoid.)",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Now, there's more to a lab than just elemental chemistry.\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"happy",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"You need team chemistry as well!\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"neutral",
+			"position":"right"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"determined",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong good at teams!\"",
+			"speaker":"Oolong"
+		}
+		]
+	},
+	{
+		"text":"Is Oolong a candidate?",
+		"directions":
+		[
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"confused",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"I'm not sure yet.\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"You look a bit funny, but there's more to a scientist than meets the eye.\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"neutral",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Take my pal Percy over there.\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"happy",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"To look at him, you'd think he was a brilliant physicist, hee hee!\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"neutral",
+			"position":"right"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"nervous",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"(A fizzy sis? Oolong is really going to have to show off his skills to get onto this team.)",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"determined",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong can be just as fizzy!\"",
+			"speaker":"Oolong"
+		}
+		]
+	},
+	{
+		"text":"Test them?",
+		"directions":
+		[
+		{
+			"action":"dialogue",
+			"speech":"\"I'm recruiting a laboratory, not a science club, hee hee!\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Which means I can't let just anyone in.\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"I have to test candidates to make sure they'll provide value to the group.\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"determined",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong can pass any test!\"",
+			"speaker":"Oolong"
+		}
+		]
+	}
+	]
+},
+{
+	"action":"dialogue",
+	"speech":"\"Watch, he show you!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"Show off your knowledge",
+		"directions":
+		[
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong knows lots about science.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"I'll be the judge of that.\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"What do you know about, say, mixing chemicals?\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"happy",
+			"position":"left"
+		},
+		{
+			"action":"choice",
+			"choices":
+			[
+			{
+				"text":"Tell delicious fact",
+				"directions":
+				[
+				{
+					"action":"dialogue",
+					"speech":"\"Oolong know that if you mix flour, eggs, and water, you get cake batter!\"",
+					"speaker":"Oolong"
+				},
+				{
+					"action":"dialogue",
+					"speech":"\"And cake batter very yummy. Maybe yummier than science.\"",
+					"speaker":"Oolong"
+				}
+				]
+			},
+			{
+				"text":"Tell healthy fact",
+				"directions":
+				[
+				{
+					"action":"dialogue",
+					"speech":"\"Oolong know about trail mix!\"",
+					"speaker":"Oolong"
+				},
+				{
+					"action":"dialogue",
+					"speech":"\"Trail mix have lots of healty things. Healthy makes good brain. Good brain makes science.\"",
+					"speaker":"Oolong"
+				}
+				]
+			},
+			{
+				"text":"Tell green fact",
+				"directions":
+				[
+				{
+					"action":"dialogue",
+					"speech":"\"Oolong know that blue and yellow mix to make green!\"",
+					"speaker":"Oolong"
+				},
+				{
+					"action":"dialogue",
+					"speech":"\"Green is good color. Is color of science. Also Oolong.\"",
+					"speaker":"Oolong"
+				}
+				]
+			}
+			]
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"confused",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"...",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"nervous",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"...",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"happy",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong, I think I have the perfect role for you!\"",
+			"speaker":"Plague Knight"
+		}
+		]
+	},
+	{
+		"text":"Play music",
+		"directions":
+		[
+		{
+			"action":"dialogue",
+			"speech":"Oolong plays the Alchemist's Haven.",
+			"speaker":""
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"happy",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong, this music is perfect!\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"happy",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Really?\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"The suspenseful undertones! The air of mystery!\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"This song encapsulates the feeling of scientific discovery!\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"blush",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Thank.\"",
+			"speaker":"Oolong"
+		}
+		]
+	}
+	]
+},
+{
+	"action":"dialogue",
+	"speech":"\"You're going to be great for team morale!\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hang on, I've gotta go let my buddy know that we've got another recruit.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"offstage",
+	"position":"all"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Wow, Oolong made a new friend already!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"offstage",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"Meanwhile, across the room.",
+	"speaker":""
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"actor",
+	"actor":"percy",
+	"emotion":"neutral",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Okay, I've scoped out the room for recruits for Project Explodatorium.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Any luck?\"",
+	"speaker":"Percy"
+},
+{
+	"action":"offstage",
+	"position":"all"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oh! They're talking about Oolong.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"But Oolong shouldn't eavesdrop.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"determined",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"...",
+	"speaker":""
+},
+{
+	"action":"dialogue",
+	"speech":"...",
+	"speaker":""
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"nervous",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"...",
+	"speaker":""
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"But Oolong can't help himself!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"offstage",
+	"position":"center"
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"actor",
+	"actor":"percy",
+	"emotion":"neutral",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"And see the one over there, with the green skin?\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"I peeked at their research, and it's exactly what we've been looking for.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"happy",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"With them on our side, we'll be able to unlock the power of essence for sure!\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"My heart is racing with excitement, hee hee!\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"You sure it's from excitement?\"",
+	"speaker":"Percy"
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"confused",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"What do you mean?\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"I saw how nervous you were over there.\"",
+	"speaker":"Percy"
+},
+{
+	"action":"dialogue",
+	"speech":"\"I think you're in love, my friend.\"",
+	"speaker":"Percy"
+},
+{
+	"action":"offstage",
+	"position":"all"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"In lo-uve... with Oolong?\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"offstage",
+	"position":"center"
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"blush",
+	"position":"left"
+},
+{
+	"action":"actor",
+	"actor":"percy",
+	"emotion":"neutral",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"No way!\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"My interest is purely scientific!\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Mhm.\"",
+	"speaker":"Percy"
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Anyway, I also met this strange-\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"percy",
+	"emotion":"confused",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Here comes the professor. We'll finish this dicussion later.\"",
+	"speaker":"Percy"
+},
+{
+	"action":"offstage",
+	"position":"all"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"In lo-uve with Oolong.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oh, but class starting.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oolong should pay attention.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"changevar",
+	"val":"0",
+	"changetype":"set",
+	"variable":"GLOBAL_PATH"
+},
+{
+	"action":"timeadvance"
+}
+]

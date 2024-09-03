@@ -1,0 +1,471 @@
+[
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"neutral",
+    "position":"right"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"neutral",
+    "position":"left"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Excuse me. Oolong want to ask you a question.\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"confused",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Oh?\"",
+    "speaker":"Percy"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"confused",
+    "position":"left"
+},
+{
+    "action":"dialogue",
+    "speech":"\"What is love?\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"happy",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Baby don't hurt me.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Don't hurt me?\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"dialogue",
+    "speech":"\"No more.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"dialogue",
+    "speech":"...",
+    "speaker":"Oolong"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Oolong not understand.\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"neutral",
+    "position":"left"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"neutral",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Sorry, that was a bit of advanced terminology.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"dialogue",
+    "speech":"\"I happen to be a certified...\"",
+    "speaker":"Percy"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"blush",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Love Doctor.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"neutral",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"But let me break it down for you in layman's terms.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"happy",
+    "position":"left"
+},
+{
+    "action":"dialogue",
+    "speech":"\"See, when you're in love it fills you with desire.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"happy",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Suddenly you're unburdened by lesser notions, and are compelled only to chase your loved one's affection in return.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Truly there is no nobler emotion than that bestowed by winged eros.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"dialogue",
+    "speech":"...",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"angry",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"You didn't catch a word of that, did you.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"nervous",
+    "position":"left"
+},
+{
+    "action":"dialogue",
+    "speech":"\"No...\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"neutral",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Okay, let me dumb it down some more.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"dialogue",
+    "speech":"\"When you love someone, you want to spend time with them.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Does that make sense?\"",
+    "speaker":"Percy"
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"Yes",
+		"directions":
+		[
+			{
+                "action":"changevar",
+                "val":1,
+                "changetype":"increment",
+                "variable":"FAVOR_PERCY"
+            },
+            {
+                "action":"actor",
+                "actor":"percy",
+                "emotion":"happy",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Excellent!\"",
+                "speaker":"Percy"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"I knew you'd turn out to be a star pupil.\"",
+                "speaker":"Percy"
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"happy",
+                "position":"left"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Wow, Oolong a star...\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"So what did we learn?\"",
+                "speaker":"Percy"
+            }
+        ]
+	},
+	{
+		"text":"No",
+		"directions":
+		[
+			{
+                "action":"changevar",
+                "val":1,
+                "changetype":"decrement",
+                "variable":"FAVOR_PERCY"
+            },
+            {
+                "action":"actor",
+                "actor":"percy",
+                "emotion":"angry",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"You insufferable cretin!\"",
+                "speaker":"Percy"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Love.\"",
+                "speaker":"Percy"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"is.\"",
+                "speaker":"Percy"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"when.\"",
+                "speaker":"Percy"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"you.\"",
+                "speaker":"Percy"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"like.\"",
+                "speaker":"Percy"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"someone.\"",
+                "speaker":"Percy"
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"happy",
+                "position":"left"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Oh, Oolong get it!\"",
+                "speaker":"Oolong"
+            }
+        ]
+	}
+	]
+},
+{
+    "action":"dialogue",
+    "speech":"\"Love is like friends, right?\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"neutral",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"No...\"",
+    "speaker":"Percy"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"blush",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Love is far more than that, friend.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"confused",
+    "position":"left"
+},
+{
+    "action":"dialogue",
+    "speech":"\"You mean like-\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Super-friends?\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"neutral",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Sure.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"neutral",
+    "position":"left"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Let's go with that.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Now friend, if you have any more questions, just bring them to...\"",
+    "speaker":"Percy"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"blush",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"The Love Doctor.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"happy",
+    "position":"left"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Actually, Oolong have lots of questions.\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"percy",
+    "emotion":"neutral",
+    "position":"right"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Oh look at the time.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"dialogue",
+    "speech":"\"I have to get to my next class.\"",
+    "speaker":"Percy"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Stay lovely, friend.\"",
+    "speaker":"Percy"
+},
+{
+	"action":"offstage",
+	"position":"right"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"neutral",
+    "position":"left"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Wow.\"",
+    "speaker":"Oolong"
+},
+{
+	"action":"offstage",
+	"position":"left"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"neutral",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"So when you lo-uve someone who want to be super friends with them.\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"determined",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Oolong want to be super friends!\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Tomorrow in class Oolong will ask to become super friends!\"",
+    "speaker":"Oolong"
+},
+{
+	"action":"timeadvance"
+},
+{
+	"action":"scene",
+	"destination":"WEDNESDAY"
+}
+]

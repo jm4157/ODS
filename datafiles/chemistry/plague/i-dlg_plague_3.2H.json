@@ -1,0 +1,49 @@
+[
+{
+	"action":"actor",
+	"actor":"hedge",
+	"emotion":"neutral",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"So many papers to grade, so little time.\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Why did I give out so much homework on the first day?\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Uh, hello Professor.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"It Oolong.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hmm? Oh, chemistry, right?\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"dialogue",
+	"speech":"\"I'm sorry, but I'm far too busy right now.\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Not to mention starving. I haven't eaten anything since last night.\"",
+	"speaker":"Hedge Professor"
+}
+]

@@ -1,0 +1,24 @@
+[
+{
+    "action":"actor",
+    "actor":"mona",
+    "emotion":"confused",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Is that supposed to be a gift?\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"mona",
+    "emotion":"neutral",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Uh, thanks I guess.\"",
+    "speaker":"Oolong"
+}
+]

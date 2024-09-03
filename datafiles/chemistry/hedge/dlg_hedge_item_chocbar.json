@@ -1,0 +1,125 @@
+[
+{
+    "action":"actor",
+    "actor":"hedge",
+    "emotion":"neutral",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"I'm so hungry.\"",
+    "speaker":"Hedge Professor"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Say, is that chocolate bar for me?.\"",
+    "speaker":"Hedge Professor"
+},
+{
+    "action":"choice",
+    "choices":
+    [
+    {
+        "text":"Give chocolate bar",
+        "directions":
+        [
+            {
+                "action":"changevar",
+                "val":"1",
+                "changetype":"decrement",
+                "variable":"INVEN_CHOCBAR"
+            },
+            {
+                "action":"changevar",
+                "val":"1",
+                "changetype":"set",
+                "variable":"EVENT_PLAGUEPARTNER"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Why thank you Oolong.\"",
+                "speaker":"Hedge Professor"
+            },
+            {
+                "action":"dialogue",
+                "speech":"gobble chomp crunch scarf",
+                "speaker":"Hedge Professor"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Ah, that hit the spot.\"",
+                "speaker":"Hedge Professor"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Now, is there anything I can do for you?\"",
+                "speaker":"Hedge Professor"
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"neutral",
+                "position":"left"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Actually, Oolong want to swap partners.\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"blush",
+                "position":"left"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"To the bird mask man...\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Done.\"",
+                "speaker":"Hedge Professor"
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"happy",
+                "position":"left"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Thank you Professor!\"",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"dialogue",
+                "speech":"(It really happening! Oolong going to be super-friends!)",
+                "speaker":"Oolong"
+            },
+            {
+                "action":"timeadvance"
+            }
+        ]
+    },
+    {
+        "text":"Keep it",
+        "directions":
+        [
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"nervous",
+                "position":"left"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Oh, Oolong sorry.\"",
+                "speaker":"Oolong"
+            }
+        ]
+    }
+    ]
+}
+]

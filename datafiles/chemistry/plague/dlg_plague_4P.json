@@ -1,0 +1,259 @@
+[
+{
+	"action":"actor",
+	"actor":"hedge",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Alright class, I hope you've prepared for you first lab.\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Before we begin, I'd like to mention a change in lab partners due to events I will not name for privacy's sake.\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Plague Knight, your partner is Oolong now.\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Now, let's begin!\"",
+	"speaker":"Hedge Professor"
+},
+{
+	"action":"offstage",
+	"position":"center"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oolong's plan worked!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"neutral",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Huh, guess we're partners now.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"What are the odds of that?\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"Higher than you might think",
+		"directions":
+		[
+			{
+				"action":"actor",
+				"actor":"plague",
+				"emotion":"confused",
+				"position":"right"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"Huh?\"",
+				"speaker":"Plague Knight"
+			},
+			{
+				"action":"actor",
+				"actor":"plague",
+				"emotion":"neutral",
+				"position":"right"
+			}
+		]
+	},
+	{
+		"text":"Crazy, right?",
+		"directions":
+		[]
+	}
+	]
+},
+{
+	"action":"dialogue",
+	"speech":"\"Anyway, let's get to work on this lab.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"I'll read the instructions, and you gather supplies, alright?\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"determined",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Right!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hmm.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"confused",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hmm?\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"angry",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hmm.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"You know Oolong, this lab is really boring.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"happy",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"What do you say we spice things up? Cause an explosion or two?\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"That sounds dangerous...",
+		"directions":
+		[
+			{
+				"action":"actor",
+				"actor":"plague",
+				"emotion":"neutral",
+				"position":"right"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"Wow Oolong, I didn't realize you were boring.\"",
+				"speaker":"Plague Knight"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"I guess we'll just go ahead with the lab as written.\"",
+				"speaker":"Plague Knight"
+			},
+			{
+				"action":"offstage",
+				"position":"all"
+			},
+			{
+				"action":"actor",
+				"actor":"oolong",
+				"emotion":"nervous",
+				"position":"center"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"Oolong think maybe he blew his chance to be super-friends.\"",
+				"speaker":"Oolong"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"But maybe if Oolong lucky it will still work out?\"",
+				"speaker":"Oolong"
+			}
+		]
+	},
+	{
+		"text":"Kaboom!",
+		"directions":
+		[
+			{
+				"action":"changevar",
+				"val":"3",
+				"changetype":"increment",
+				"variable":"FAVOR_PLAGUE"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"That's what I like to hear, hee hee!\"",
+				"speaker":"Plague Knight"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"Now, do exactly as I say!\"",
+				"speaker":"Plague Knight"
+			},
+			{
+				"action":"offstage",
+				"position":"all"
+			},
+			{
+				"action":"actor",
+				"actor":"oolong",
+				"emotion":"happy",
+				"position":"center"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"That went super well!\"",
+				"speaker":"Oolong"
+			},
+			{
+				"action":"dialogue",
+				"speech":"\"There no way he won't want to become super-friends with Oolong!\"",
+				"speaker":"Oolong"
+			}
+		]
+	}
+	]
+},
+{
+	"action":"timeadvance"
+},
+{
+	"action":"timeadvance"
+}
+]

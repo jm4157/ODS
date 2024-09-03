@@ -1,0 +1,389 @@
+[
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"left"
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"neutral",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hello again!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oolong want to know if you wanted to hang out?\"",
+	"speaker":"Oolong"
+},
+{
+    "action":"dialogue",
+    "speech":"Testing: Plague Knight's favor",
+    "speaker":""
+},
+{
+	"action":"directif",
+	"val":"1",
+	"variable":"FAVOR_PLAGUE",
+	"operator":"atleast",
+	"directions":
+	[
+		{
+            "action":"dialogue",
+            "speech":"SUCCESS",
+            "speaker":""
+        },
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"happy",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Of course buddy. If you're going to be my lab assistant we've gotta get acquainted.\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Of course! Oolong and-\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"confused",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Actually, Oolong never ask your name.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"neutral",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Everyone calls me Plague Knight.\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"neutral",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oh, Oolong is sorry for you. People can be very mean.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"...",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"I want to be called Plague Knight.\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"nervous",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oh.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"determined",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"But plague is bad thing, and you aren't bad!\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"You should be named something good, like doctor. Doctor fix plague.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"happy",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong call you Doctor Knight!\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"...",
+			"speaker":"\"Doctor Knight\""
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"happy",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Hee hee, you've got a great sense of humor!\"",
+			"speaker":"\"Doctor Knight\""
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"That's why we make such good friends!\"",
+			"speaker":"\"Doctor Knight\""
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"blush",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Or more...\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Yeah, or more than-\"",
+			"speaker":"\"Doctor Knight\""
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"confused",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Wait what?\"",
+			"speaker":"\"Doctor Knight\""
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"determined",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong know you want to be more than just friends!\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"angry",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Hold on, this is all moving really fast.\"",
+			"speaker":"\"Doctor Knight\""
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong overhear Dcotor Knight on Monday.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"He say he love the green classmate.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"confused",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"The green-\"",
+			"speaker":"\"Doctor Knight\""
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"confused",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"!",
+			"speaker":"\"Doctor Knight\""
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"neutral",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Uh, Oolong, I'm sorry to say this but I wasn't talking about you.\"",
+			"speaker":"\"Doctor Knight\""
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"confused",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Not Oolong?\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Yeah, really I meant-\"",
+			"speaker":"\"Doctor Knight\""
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"nervous",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"This really embarassing.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"It time for Oolong to leave.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Well you don't have to-\"",
+			"speaker":"\"Doctor Knight\""
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"determined",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Into the mountains, never to be heard from again.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Goodbye Doctor Knight. Oolong hopes you can forget him one day.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"confused",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"What?\"",
+			"speaker":"\"Doctor Knight\""
+		},
+		{
+			"action":"offstage",
+			"position":"left"
+		},
+		{
+			"action":"actor",
+			"actor":"plague",
+			"emotion":"angry",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Get back here! I still want you to join my lab!\"",
+			"speaker":"\"Doctor Knight\""
+		},
+		{
+			"action":"scene",
+			"destination":"ENDING_SUPERFRIENDS"
+		}
+	]
+},
+{
+	"action":"directif",
+	"val":"1",
+	"variable":"FAVOR_PLAGUE",
+	"operator":"lessthan",
+	"directions":
+	[
+		{
+            "action":"dialogue",
+            "speech":"FAILURE",
+            "speaker":""
+        },
+		{
+			"action":"dialogue",
+			"speech":"\"Sorry Oolong, Percy and I were going to hit up Knightly Knoodles after this.\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Maybe some other time.\"",
+			"speaker":"Plague Knight"
+		},
+		{
+			"action":"offstage",
+			"position":"right"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"nervous",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oh no.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong couldn't even make normal friends.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"He better off just leaving and never coming back.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"scene",
+			"destination":"ENDING_DATELESS"
+		}
+	]
+}
+]

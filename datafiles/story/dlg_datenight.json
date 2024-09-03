@@ -1,0 +1,34 @@
+[
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"It end of week.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"This Oolong's chance to invite a friend to hang out.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"It should be someone Oolong spent a lot of time talking to, and that really likes Oolong, otherwise they might say no.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Who will Oolong try?\"",
+	"speaker":"Oolong"
+}
+]

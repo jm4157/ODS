@@ -1,0 +1,601 @@
+[
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"(There he is.)",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"(Oolong should ask him some warmup questions first, so he doesn't get suspicious.)",
+	"speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"plague",
+    "emotion":"neutral",
+    "position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oh, hey Oolong. I didn't see you there.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"What's up?\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"You smart scientist, right? Oolong have some questions.\"",
+	"speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"plague",
+    "emotion":"happy",
+    "position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"You're right I am! Ask away.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"left"
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"Why is the sky blue?",
+		"directions":
+		[
+			{
+                "action":"actor",
+                "actor":"plague",
+                "emotion":"neutral",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"It has to do with the scattering of light in the atmosphere.\"",
+                "speaker":"Plague Knight"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Blue light scatters the most, so it's the most visible.\"",
+                "speaker":"Plague Knight"
+            }
+        ]
+	},
+	{
+		"text":"Why does the sun rise?",
+		"directions":
+		[
+			{
+                "action":"actor",
+                "actor":"plague",
+                "emotion":"neutral",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"So our planet is actually rotating in space.\"",
+                "speaker":"Plague Knight"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"When the portion that we're on turns away from the sun, the sun appears to sink beneath the horizon.\"",
+                "speaker":"Plague Knight"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"And then in the morning, it appears to rise as we turn to face it again.\"",
+                "speaker":"Plague Knight"
+            }
+        ]
+	},
+    {
+		"text":"Why do leaves change color in fall?",
+		"directions":
+		[
+			{
+                "action":"actor",
+                "actor":"plague",
+                "emotion":"neutral",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Leaves are green because they contain chlorophyll, which makes food out of the sun.\"",
+                "speaker":"Plague Knight"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"But in the winter there's not enough sunlight for chlorophyll to be efficient.\"",
+                "speaker":"Plague Knight"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"What trees do to save energy is let the chlorophyll in their leaves break down, causing them to stop being green and then fall off.\"",
+                "speaker":"Plague Knight"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"That way the tree can hibernate during winter, and then grow new leaves in the spring.\"",
+                "speaker":"Plague Knight"
+            }
+        ]
+	}
+	]
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Wow!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Okay, now Oolong have another question.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"left"
+},
+{
+    "action":"changevar",
+    "val":1,
+    "changetype":"decrement",
+    "variable":"FAVOR_PLAGUE"
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"What counts as a word?",
+		"directions":
+		[
+			{
+                "action":"actor",
+                "actor":"plague",
+                "emotion":"neutral",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Well a word is something defined in the dictionary.\"",
+                "speaker":"Plague Knight"
+            },
+            {
+                "action":"actor",
+                "actor":"plague",
+                "emotion":"confused",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Wait no, because then how could new words be added to the dictionary?\"",
+                "speaker":"Plague Knight"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"I guess a word can just be anything then?\"",
+                "speaker":"Plague Knight"
+            }
+        ]
+	},
+	{
+		"text":"How do airplanes fly?",
+		"directions":
+		[
+			{
+                "action":"actor",
+                "actor":"plague",
+                "emotion":"confused",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Um, it has something to do with air resistance I think.\"",
+                "speaker":"Plague Knight"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"I don't know, my preferred method of flight is combustion.\"",
+                "speaker":"Plague Knight"
+            }
+        ]
+	},
+    {
+		"text":"What is Thioacetone?",
+		"directions":
+		[
+			{
+                "action":"changevar",
+                "val":2,
+                "changetype":"increment",
+                "variable":"FAVOR_PLAGUE"
+            },
+            {
+                "action":"actor",
+                "actor":"plague",
+                "emotion":"happy",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Oh, this is a fun one!\"",
+                "speaker":"Plague Knight"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Thioacetone is composed of three carbon, six hydrogen, and a single sulfur.\"",
+                "speaker":"Plague Knight"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"The scent is putrid enough to cause the evacuation of an entire hamlet, hee hee!\"",
+                "speaker":"Plague Knight"
+            }
+        ]
+	}
+	]
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Great, but Oolong need to know even more.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"left"
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"Hotel?",
+		"directions":
+		[
+			{
+                "action":"actor",
+                "actor":"plague",
+                "emotion":"neutral",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Trivago.\"",
+                "speaker":"Plague Knight"
+            }
+        ]
+	},
+	{
+		"text":"Who let the dogs out?",
+		"directions":
+		[
+			{
+                "action":"actor",
+                "actor":"plague",
+                "emotion":"neutral",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Probably Polar Knight. Who else brings dogs to a party?\"",
+                "speaker":"Plague Knight"
+            }
+        ]
+	},
+    {
+		"text":"Why Oolong's dad not come back?",
+		"directions":
+		[
+			{
+                "action":"actor",
+                "actor":"plague",
+                "emotion":"neutral",
+                "position":"right"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"Uh, that really isn't a question for me to answer.\"",
+                "speaker":"Plague Knight"
+            },
+            {
+                "action":"actor",
+                "actor":"oolong",
+                "emotion":"happy",
+                "position":"left"
+            },
+            {
+                "action":"dialogue",
+                "speech":"\"It trick question! Oolong's father is dead!\"",
+                "speaker":"Oolong"
+            }
+        ]
+	}
+	]
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"blush",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Now, Oolong have one final question.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"What is love?",
+		"directions":
+		[]
+	}
+	]
+},
+{
+    "action":"actor",
+    "actor":"plague",
+    "emotion":"blush",
+    "position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"What?\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Why would you ask me that?\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"nervous",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Well, Oolong hear about love but he not know what it means.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+    "action":"actor",
+    "actor":"plague",
+    "emotion":"neutral",
+    "position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Okay.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"Ahem.",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"The brain is controlled via a series of chemicals and electrical impulses. The relevant chemical for our discussion is dopamine.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Dopamine's primary effect is to create feelings of satisfaction. When one is \"in love,\" the brain releases extra dopamine.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Thus beings of higher cognitive function are still driven to reproduce.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"...",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"...",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"nervous",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"That sound scary!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oolong hope he never have love!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"No, no. Actually, it's...\"",
+	"speaker":"Plague Knight"
+},
+{
+    "action":"actor",
+    "actor":"plague",
+    "emotion":"blush",
+    "position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Kind of nice.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Nice?\"",
+	"speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"plague",
+    "emotion":"neutral",
+    "position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Yeah.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"You know how you enjoy spending time with your friends, right?\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oolong does!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Now imagine that, but ten times better.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"So like-\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Super-friends?\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Yeah, a lot like super friends.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Wow!\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"In that case, there just one more thing Oolong need to know.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oh sorry Oolong, I have to get to class now.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Another time.\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"offstage",
+	"position":"right"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"determined",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Now Oolong really want to be super-friends with him.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Oolong will have to do it tomorrow in class.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"timeadvance"
+},
+{
+	"action":"scene",
+	"destination":"WEDNESDAY"
+}
+]

@@ -1,0 +1,639 @@
+[
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"determined",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Okay Oolong.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Time to become super friends.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Nothing can get in Oolong's way.\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"offstage",
+	"position":"center"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hello-\"",
+	"speaker":"Oolong"
+},
+{
+	"action":"offstage",
+	"position":"right"
+},
+{
+	"action":"actor",
+	"actor":"hedge",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Good morning class.\"",
+	"speaker":"Hedge Teacher"
+},
+{
+	"action":"actor",
+	"actor":"hedge",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"I made sure to come in bright and early today so that we could get our lab partner assignments before our first lab on Friday.\"",
+	"speaker":"Hedge Teacher"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Our first pairing is Plague and...\"",
+	"speaker":"Hedge Teacher"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"nervous",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"(Please be Oolong.)",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"hedge",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Percival.\"",
+	"speaker":"Hedge Teacher"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"determined",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"(What?)",
+	"speaker":"Oolong"
+},
+{
+	"action":"offstage",
+	"position":"center"
+},
+{
+	"action":"actor",
+	"actor":"percy",
+	"emotion":"happy",
+	"position":"right"
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"happy",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hee hee, what luck!\"",
+	"speaker":"Plague Knight"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Hi hoof, bro!\"",
+	"speaker":"Percy"
+},
+{
+	"action":"offstage",
+	"position":"all"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"determined",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"(That not fair at all!)",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"confused",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"(How Oolong going to become super friends when his friend's partner is horseman?)",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"hedge",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"\"Next is Mona and Oolong.\"",
+	"speaker":"Hedge Teacher"
+},
+{
+	"action":"offstage",
+	"position":"center"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"directif",
+	"val":"0",
+	"variable":"FAVOR_MONA",
+	"operator":"atleast",
+	"directions":
+	[
+		{
+			"action":"actor",
+			"actor":"mona",
+			"emotion":"neutral",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Uh, dude?\"",
+			"speaker":"Mona"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"I think that's us.\"",
+			"speaker":"Mona"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"confused",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Huh?\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"We're lab partners.\"",
+			"speaker":"Mona"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"neutral",
+			"position":"left"
+		},
+		{
+			"action":"actor",
+			"actor":"mona",
+			"emotion":"confused",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Are you alright?\"",
+			"speaker":"Mona"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"You seem a little distracted.\"",
+			"speaker":"Mona"
+		},
+		{
+			"action":"choice",
+			"choices":
+			[
+			{
+				"text":"I'm fine",
+				"directions":
+				[
+					{
+						"action":"actor",
+						"actor":"oolong",
+						"emotion":"happy",
+						"position":"left"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"Oolong okay, really!\"",
+						"speaker":"Oolong"
+					},
+					{
+						"action":"actor",
+						"actor":"mona",
+						"emotion":"neutral",
+						"position":"right"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"Whatever.\"",
+						"speaker":"Mona"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"You're acting weird.\"",
+						"speaker":"Mona"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"Just help me with this pre-lab, alright?\"",
+						"speaker":"Mona"
+					},
+					{
+						"action":"actor",
+						"actor":"oolong",
+						"emotion":"nervous",
+						"position":"left"
+					},
+					{
+						"action":"actor",
+						"actor":"plague",
+						"emotion":"happy",
+						"position":"right"
+					},
+					{
+						"action":"dialogue",
+						"speech":"(But how can Oolong concentrate when Oolong's super friend is right there?",
+						"speaker":"Oolong"
+					},
+					{
+						"action":"actor",
+						"actor":"mona",
+						"emotion":"angry",
+						"position":"right"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"You keep looking away.\"",
+						"speaker":"Mona"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"If you'd rather be partners with someone else, why don't you just switch?\"",
+						"speaker":"Mona"
+					}
+				]
+			},
+			{
+				"text":"There is something...",
+				"directions":
+				[
+					{
+						"action":"changevar",
+						"val":1,
+						"changetype":"increment",
+						"variable":"FAVOR_MONA"
+					},
+					{
+						"action":"actor",
+						"actor":"oolong",
+						"emotion":"nervous",
+						"position":"left"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"To tell the truth, Oolong was hoping for a different lab partner.\"",
+						"speaker":"Oolong"
+					},
+					{
+						"action":"actor",
+						"actor":"mona",
+						"emotion":"angry",
+						"position":"right"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"Oh.\"",
+						"speaker":"Mona"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"See bird-man in hood?\"",
+						"speaker":"Oolong"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"He lo-uve Oolong, and Oolong was hoping to be his lab partner.\"",
+						"speaker":"Oolong"
+					},
+					{
+						"action":"actor",
+						"actor":"mona",
+						"emotion":"neutral",
+						"position":"right"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"Oh!\"",
+						"speaker":"Mona"
+					},
+					{
+						"action":"actor",
+						"actor":"mona",
+						"emotion":"blush",
+						"position":"right"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"Oh...\"",
+						"speaker":"Mona"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"That's actually pretty romantic.\"",
+						"speaker":"Mona"
+					},
+					{
+						"action":"actor",
+						"actor":"mona",
+						"emotion":"neutral",
+						"position":"right"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"Hey, why don't you just switch up the partnerships?\"",
+						"speaker":"Mona"
+					},
+					{
+						"action":"actor",
+						"actor":"oolong",
+						"emotion":"confused",
+						"position":"left"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"You can do that?\"",
+						"speaker":"Oolong"
+					},
+					{
+						"action":"actor",
+						"actor":"mona",
+						"emotion":"happy",
+						"position":"right"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"You can do anything if you're willing to bend the rules a little.\"",
+						"speaker":"Mona"
+					},
+					{
+						"action":"actor",
+						"actor":"mona",
+						"emotion":"neutral",
+						"position":"right"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"Now come on, help me finish this pre-lab before you go running off on me.\"",
+						"speaker":"Mona"
+					}
+				]
+			}
+			]
+		}	
+		
+	]
+},
+{
+	"action":"directif",
+	"val":"0",
+	"variable":"FAVOR_MONA",
+	"operator":"lessthan",
+	"directions":
+	[
+		{
+			"action":"actor",
+			"actor":"mona",
+			"emotion":"angry",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Really? You again?\"",
+			"speaker":"Mona"
+		},
+		{
+			"action":"actor",
+			"actor":"oolong",
+			"emotion":"determined",
+			"position":"left"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Oolong not very happy about this either.\"",
+			"speaker":"Oolong"
+		},
+		{
+			"action":"actor",
+			"actor":"mona",
+			"emotion":"confused",
+			"position":"right"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Wait, what?\"",
+			"speaker":"Mona"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"Yesterday you wouldn't leave me alone.\"",
+			"speaker":"Mona"
+		},
+		{
+			"action":"dialogue",
+			"speech":"\"What's different now?\"",
+			"speaker":"Mona"
+		},
+		{
+			"action":"choice",
+			"choices":
+			[
+			{
+				"text":"(Explain yourself)",
+				"directions":
+				[
+					{
+						"action":"changevar",
+						"val":1,
+						"changetype":"increment",
+						"variable":"FAVOR_MONA"
+					},
+					{
+						"action":"actor",
+						"actor":"oolong",
+						"emotion":"nervous",
+						"position":"left"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"Truth is, Oolong is in lo-uve.\"",
+						"speaker":"Oolong"
+					},
+					{
+						"action":"actor",
+						"actor":"mona",
+						"emotion":"neutral",
+						"position":"right"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"And he wanted to be lab partners with someone else.\"",
+						"speaker":"Oolong"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"Oh, that's actually kind of sweet.\"",
+						"speaker":"Mona"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"Why don't you see if you can get your partner switched?\"",
+						"speaker":"Mona"
+					},
+					{
+						"action":"actor",
+						"actor":"mona",
+						"emotion":"happy",
+						"position":"right"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"Plus it'll get you off my back.\"",
+						"speaker":"Mona"
+					}
+				]
+			},
+			{
+				"text":"(Be mean)",
+				"directions":
+				[
+					{
+						"action":"changevar",
+						"val":1,
+						"changetype":"decrement",
+						"variable":"FAVOR_MONA"
+					},
+					{
+						"action":"actor",
+						"actor":"oolong",
+						"emotion":"determined",
+						"position":"left"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"What happen is that Oolong sick of looking at your ugly mug!\"",
+						"speaker":"Oolong"
+					},
+					{
+						"action":"actor",
+						"actor":"mona",
+						"emotion":"angry",
+						"position":"right"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"Oolongs's partner stolen by horse man, and now he stuck with you!\"",
+						"speaker":"Oolong"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"If he couldn't be with bird guy, at least he could have been with someone other than cruel green lady!\"",
+						"speaker":"Oolong"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"That's it.\"",
+						"speaker":"Mona"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"I won't endure another second of this.\"",
+						"speaker":"Mona"
+					},
+					{
+						"action":"dialogue",
+						"speech":"\"I'm going to switch partners.\"",
+						"speaker":"Mona"
+					}
+				]
+			}
+			]
+		}
+		
+	]
+},
+{
+	"action":"offstage",
+	"position":"all"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"(Switch partners...)",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"happy",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"(What good idea!)",
+	"speaker":"Oolong"
+},
+{
+	"action":"actor",
+	"actor":"oolong",
+	"emotion":"determined",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"(Oolong do it after class.)",
+	"speaker":"Oolong"
+},
+{
+	"action":"timeadvance"
+}
+]

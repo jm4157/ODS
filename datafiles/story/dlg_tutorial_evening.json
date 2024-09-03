@@ -1,0 +1,29 @@
+[
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"neutral",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Now that it evening, Oolong need to go home and sleep in Oolong's bed.\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"dialogue",
+    "speech":"\"Of course, Oolong could explore first.\"",
+    "speaker":"Oolong"
+},
+{
+    "action":"actor",
+    "actor":"oolong",
+    "emotion":"happy",
+    "position":"center"
+},
+{
+    "action":"dialogue",
+    "speech":"\"It all up to mysterious entity that control Oolong's every move!.\"",
+    "speaker":"Oolong"
+}
+]

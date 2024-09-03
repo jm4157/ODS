@@ -1,0 +1,178 @@
+[
+{
+	"action":"dialogue",
+	"speech":"Testing basic dialogue.",
+	"speaker":""
+},
+{
+	"action":"dialogue",
+	"speech":"Check.",
+	"speaker":""
+},
+{
+	"action":"dialogue",
+	"speech":"Testing actor calling.",
+	"speaker":""
+},
+{
+	"action":"actor",
+	"actor":"percy",
+	"emotion":"neutral",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"Left check.",
+	"speaker":""
+},
+{
+	"action":"actor",
+	"actor":"plague",
+	"emotion":"neutral",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"Right check.",
+	"speaker":""
+},
+{
+	"action":"actor",
+	"actor":"mona",
+	"emotion":"neutral",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"Center check.",
+	"speaker":""
+},
+{
+	"action":"dialogue",
+	"speech":"Testing actor dismissal.",
+	"speaker":""
+},
+{
+	"action":"offstage",
+	"position":"left"
+},
+{
+	"action":"dialogue",
+	"speech":"Left check.",
+	"speaker":""
+},
+{
+	"action":"offstage",
+	"position":"right"
+},
+{
+	"action":"dialogue",
+	"speech":"Right check.",
+	"speaker":""
+},
+{
+	"action":"offstage",
+	"position":"center"
+},
+{
+	"action":"dialogue",
+	"speech":"Center check.",
+	"speaker":""
+},
+{
+	"action":"dialogue",
+	"speech":"Testing variable setting.",
+	"speaker":""
+},
+{
+	"action":"changevar",
+	"val":"1",
+	"changetype":"set",
+	"variable":"FAVOR_PLAGUE"
+},
+{
+	"action":"dialogue",
+	"speech":"Testing variable getting.",
+	"speaker":""
+},
+{
+	"action":"directif",
+	"val":"1",
+	"variable":"FAVOR_PLAGUE",
+	"operator":"equals",
+	"directions":
+	[
+		{
+            "action":"dialogue",
+            "speech":"Check.",
+            "speaker":""
+        }
+    ]
+},
+{
+	"action":"dialogue",
+	"speech":"Testing option selection.",
+	"speaker":""
+},
+{
+	"action":"choice",
+	"choices":
+	[
+	{
+		"text":"One",
+		"directions":
+		[
+			{
+                "action":"dialogue",
+                "speech":"Check one.",
+                "speaker":""
+            }
+        ]
+	},
+	{
+		"text":"Two",
+		"directions":
+		[
+			{
+                "action":"dialogue",
+                "speech":"Check two.",
+                "speaker":""
+            }
+        ]
+	},
+    {
+		"text":"Three",
+		"directions":
+		[
+			{
+                "action":"dialogue",
+                "speech":"Check three.",
+                "speaker":""
+            }
+        ]
+	}
+	]
+},
+{
+	"action":"dialogue",
+	"speech":"Testing time advancement.",
+	"speaker":""
+},
+{
+    "action":"timeadvance"
+},
+{
+    "action":"dialogue",
+    "speech":"Check.",
+    "speaker":""
+},
+{
+	"action":"dialogue",
+	"speech":"Testing location switching.",
+	"speaker":""
+},
+{
+	"action":"scene",
+	"destination":"CLASSROOM_C"
+}
+]
