@@ -1,8 +1,7 @@
 /// @description Pick up item
 
-// If Oolong is holding something, return it to his inventory
+// If Oolong is holding something he can't pick stuff up
 if (global.inventory[INVEN_HAND] != EMPTY){
-	
 	return;
 }
 

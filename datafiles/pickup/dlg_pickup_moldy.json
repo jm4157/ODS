@@ -1,0 +1,18 @@
+[
+	{
+		"action": "actor",
+		"actor": "oolong",
+		"emotion": "nervous",
+		"position": "center"
+	},
+	{
+		"action": "dialogue",
+		"speech": "\"Ew.\"",
+		"speaker": "Oolong"
+	},
+	{
+		"action": "dialogue",
+		"speech": "\"This chocolate bar is moldy.\"",
+		"speaker": "Oolong"
+	}
+]

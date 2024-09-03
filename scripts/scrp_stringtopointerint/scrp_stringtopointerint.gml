@@ -6,8 +6,6 @@ function scrp_stringtopointerint(str){
 		case "FAVOR_MONA": return FAVOR_MONA;
 		case "FAVOR_PERCY": return FAVOR_PERCY;
 		//case "favor_king": return FAVOR_KING;
-		
-		case "INVEN_CHOCBAR": return INVEN_CHOCBAR
 
 		case "EVENT_PLAGUEPARTNER": return EVENT_PLAGUEPARTNER
 		case "EVENT_MONADISGUSTED": return EVENT_MONADISGUSTED

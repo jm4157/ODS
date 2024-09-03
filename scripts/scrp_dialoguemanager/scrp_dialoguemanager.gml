@@ -44,6 +44,10 @@ function scrp_dialoguemanager(commands, stage){
 				case "directif":
 					script_execute(scrp_directif, command.variable, command.operator, command.val, command.directions, remains, stage)
 					break
+				case "hold":
+					script_execute(scrp_hold, command.item, remains, stage)
+					script_execute(scrp_dialoguemanager, remains, stage)
+					break;
 				case "offstage":
 					script_execute(scrp_offstage, command.position, stage)
 					script_execute(scrp_dialoguemanager, remains, stage)

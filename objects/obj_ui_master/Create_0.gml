@@ -3,3 +3,7 @@
 // Get Map date info as strings
 date = script_execute(scrp_inttodate, global.date)
 time = script_execute(scrp_inttotime, global.time)
+
+// Set position
+x = 0;
+y = 0;

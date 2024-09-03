@@ -16,8 +16,10 @@
 	scrp_draw_text_outline(TIME_X, TIME_Y, time,  OUTLINE_WIDTH, c_black, OUTLINE_FIDELITY, 25, 250)
 
 // Draw inventory
+	var inven_x;
+
 	for(var i = 0; i < INVEN_SLOTS; i++){
-		var inven_x = INVEN_X_INIT - (INVEN_X_OFFSET * i);
+		inven_x = INVEN_X_INIT - (INVEN_X_OFFSET * i);
 		
 		// Draw backing, then draw bubble
 		draw_sprite_ext(spr_inven_bubble, 1, inven_x, INVEN_Y, 1, 1, 0, c_white, 0.75);
@@ -30,4 +32,10 @@
 			
 			draw_sprite(inven_spr, -1, inven_x, INVEN_Y);
 		}
+	}
+	
+	// If holding something, draw the trash can
+	if (global.inventory[INVEN_HAND] != EMPTY){
+		inven_x  -= INVEN_X_OFFSET;
+		draw_sprite(spr_inven_trash, 0, inven_x, INVEN_Y);
 	}

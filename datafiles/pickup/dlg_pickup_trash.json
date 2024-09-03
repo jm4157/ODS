@@ -1,0 +1,26 @@
+[
+    {
+        "action": "actor",
+        "actor": "oolong",
+        "emotion": "confused",
+        "position": "center"
+    },
+    {
+        "action": "choice",
+        "choices": [
+            {
+                "text": "Trash this item",
+                "directions": [
+                    {
+                        "action": "hold",
+                        "item": 0
+                    }
+                ]
+            },
+            {
+                "text": "Nevermind",
+                "directions": []
+            }
+        ]
+    }
+]
