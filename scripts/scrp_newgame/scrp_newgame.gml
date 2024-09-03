@@ -16,6 +16,9 @@ function scrp_newgame(){
 	// Create empty inventory
 	global.inventory = array_create(INVEN_SLOTS + 1)
 	
+	// Declare no items have been picked up
+	global.pickup = [];
+	
 	// Set all unprompted dialogue flags to false
 	global.game_intro_played = false
 	global.class_intro_played = false

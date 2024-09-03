@@ -22,8 +22,8 @@
 
 // Item Codes
 #macro EMPTY 0
-#macro QUARTER 1
-#macro CHOCBAR 2
+#macro CHOCBAR 1
+#macro QUARTER 2
 
 // Inventory Details
 #macro INVEN_SLOTS 5
@@ -31,6 +31,7 @@
 #macro INVEN_X_INIT (SCREEN_WIDTH - INVEN_WIDTH - 25)
 #macro INVEN_X_OFFSET (INVEN_WIDTH + 10)
 #macro INVEN_Y 25
+#macro INVEN_HAND 0
 
 
 // Minimap Positions

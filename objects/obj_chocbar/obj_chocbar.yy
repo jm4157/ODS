@@ -2,17 +2,19 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_chocbar",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_inven_parent","path":"objects/obj_inven_parent/obj_inven_parent.yy",},"propertyId":{"name":"item_code","path":"objects/obj_inven_parent/obj_inven_parent.yy",},"value":"CHOCBAR",},
+  ],
   "parent": {
     "name": "Collectibles",
     "path": "folders/Objects/Map Objects/Collectibles.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_inven_parent",
+    "path": "objects/obj_inven_parent/obj_inven_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

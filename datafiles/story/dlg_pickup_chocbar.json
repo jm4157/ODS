@@ -1,0 +1,29 @@
+[
+	{
+		"action": "actor",
+		"actor": "oolong",
+		"emotion": "confused",
+		"position": "center"
+	},
+	{
+		"action": "dialogue",
+		"speech": "\"What's this?\"",
+		"speaker": "Oolong"
+	},
+	{
+		"action": "dialogue",
+		"speech": "\"A chocolate bar on the bathroom floor?\"",
+		"speaker": "Oolong"
+	},
+	{
+		"action": "actor",
+		"actor": "oolong",
+		"emotion": "happy",
+		"position": "center"
+	},
+	{
+		"action": "dialogue",
+		"speech": "\"This could be helpful later.\"",
+		"speaker": "Oolong"
+	}
+]

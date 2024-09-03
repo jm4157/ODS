@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "String Conversion",
-    "path": "folders/Scripts/String Conversion.yy",
+    "name": "Conversion",
+    "path": "folders/Scripts/Conversion.yy",
   },
 }

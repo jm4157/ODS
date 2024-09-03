@@ -24,8 +24,9 @@
 		draw_sprite(spr_inven_bubble, 0, inven_x, INVEN_Y);
 		
 		// Get item and draw sprite
-		if (global.inventory[i + 1] != EMPTY){
-			var inven_spr = spr_inven_chocbar; // TODO replace
+		var inven_hold = global.inventory[i + 1]
+		if (inven_hold != EMPTY){
+			var inven_spr = script_execute(scrp_inttoitemspr, inven_hold);
 			
 			draw_sprite(inven_spr, -1, inven_x, INVEN_Y);
 		}

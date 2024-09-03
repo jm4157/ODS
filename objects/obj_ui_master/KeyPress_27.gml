@@ -1,6 +1,10 @@
 /// @description Open pause menu
 
 if (script_execute(scrp_layer_is_active, STAGE)){
+	// Change cursor to default
+	cursor_sprite = -1;
+	window_set_cursor(cr_default);
+	
 	// Create menu
 	var s_x = SCREEN_WIDTH / 2 - SETTINGS_WIDTH / 2
 	var s_y = SCREEN_HEIGHT / 2 - SETTINGS_HEIGHT / 2
