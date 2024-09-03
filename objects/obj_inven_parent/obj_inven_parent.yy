@@ -1,15 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_pause_listener",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":27,"eventType":9,"isDnD":false,},
-  ],
+  "name": "obj_inven_parent",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Pause",
-    "path": "folders/Objects/Menu Objects/Pause.yy",
+    "name": "Collectibles",
+    "path": "folders/Objects/Map Objects/Collectibles.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,7 +23,9 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"item_code","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":1,},
+  ],
   "solid": false,
   "spriteId": null,
   "spriteMaskId": null,

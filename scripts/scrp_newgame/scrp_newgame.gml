@@ -13,13 +13,8 @@ function scrp_newgame(){
 	global.time = MORNING
 	global.pointer[GLOBAL_PATH] = CHAR_NULL
 	
-	// Clear inventory
-	global.hand = EMPTY
-	/*global.inv1 = EMPTY
-	global.inv2 = EMPTY
-	global.inv3 = EMPTY
-	global.inv4 = EMPTY
-	global.inv5 = EMPTY*/
+	// Create empty inventory
+	global.inventory = array_create(INVEN_SLOTS + 1)
 	
 	// Set all unprompted dialogue flags to false
 	global.game_intro_played = false

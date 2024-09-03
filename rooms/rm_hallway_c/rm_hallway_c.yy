@@ -10,7 +10,6 @@
     {"name":"hc_he","path":"rooms/rm_hallway_c/rm_hallway_c.yy",},
     {"name":"hc_cc","path":"rooms/rm_hallway_c/rm_hallway_c.yy",},
     {"name":"hc_hd","path":"rooms/rm_hallway_c/rm_hallway_c.yy",},
-    {"name":"inst_D834C20","path":"rooms/rm_hallway_c/rm_hallway_c.yy",},
     {"name":"inst_78D135B2","path":"rooms/rm_hallway_c/rm_hallway_c.yy",},
     {"name":"inst_57563A8B","path":"rooms/rm_hallway_c/rm_hallway_c.yy",},
     {"name":"inst_713D73FB","path":"rooms/rm_hallway_c/rm_hallway_c.yy",},
@@ -32,11 +31,10 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_trans_parent","path":"objects/obj_trans_parent/obj_trans_parent.yy",},"propertyId":{"name":"alt_cursor","path":"objects/obj_trans_parent/obj_trans_parent.yy",},"value":"spr_cursor_forward",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_trans_parent","path":"objects/obj_trans_parent/obj_trans_parent.yy",},"propertyId":{"name":"collision","path":"objects/obj_trans_parent/obj_trans_parent.yy",},"value":"spr_trans_hc_hd",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":352.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D834C20","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_minimap","path":"objects/obj_minimap/obj_minimap.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_minimap","path":"objects/obj_minimap/obj_minimap.yy",},"propertyId":{"name":"room_num","path":"objects/obj_minimap/obj_minimap.yy",},"value":"11",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_78D135B2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_plague","path":"objects/obj_plague/obj_plague.yy",},"properties":[],"rotation":0.0,"scaleX":0.4,"scaleY":0.4,"x":544.0,"y":352.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_57563A8B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ui_master","path":"objects/obj_ui_master/obj_ui_master.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_57563A8B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_ui_master","path":"objects/obj_ui_master/obj_ui_master.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_ui_master","path":"objects/obj_ui_master/obj_ui_master.yy",},"propertyId":{"name":"room_num","path":"objects/obj_ui_master/obj_ui_master.yy",},"value":"11",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_713D73FB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mona","path":"objects/obj_mona/obj_mona.yy",},"properties":[],"rotation":0.0,"scaleX":0.8,"scaleY":0.8,"x":-32.0,"y":352.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F218EE4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_percy","path":"objects/obj_percy/obj_percy.yy",},"properties":[],"rotation":0.0,"scaleX":-0.6,"scaleY":0.6,"x":1568.0,"y":320.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},

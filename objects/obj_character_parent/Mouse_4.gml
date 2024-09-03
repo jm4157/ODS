@@ -1,7 +1,7 @@
 /// @description Start dialogue script
 
 if (visible && script_execute(scrp_layer_is_active, SCREEN)){
-	if (global.hand = EMPTY) {
+	if (global.inventory[0] = EMPTY) {
 		// Player has no item equipped
 		script_execute(scrp_begindialogue, action)
 	} else {

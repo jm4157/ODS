@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Interaction Points",
-    "path": "folders/Objects/Map Objects/Interaction Points.yy",
+    "name": "Collectibles",
+    "path": "folders/Objects/Map Objects/Collectibles.yy",
   },
   "parentObjectId": null,
   "persistent": false,

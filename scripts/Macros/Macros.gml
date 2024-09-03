@@ -1,13 +1,10 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-
-//Important Sizes
+// Important Sizes
 #macro SCREEN_WIDTH 1920
 #macro SCREEN_HEIGHT 1080
 #macro ACTOR_WIDTH (SCREEN_WIDTH / 2)
 #macro ACTOR_HEIGHT (SCREEN_HEIGHT / 4 * 3)
 
-//Emotion Indices
+// Emotion Indices
 #macro NEUTRAL 0
 #macro HAPPY 1
 #macro CONFUSED 2
@@ -16,19 +13,27 @@
 #macro NERVOUS 5
 #macro DETERMINED 6
 
-//Character Codes
+// Character Codes
 #macro CHAR_NULL -1
 #macro PLAGUE 0
 #macro MONA 1
 #macro PERCY 2
 #macro HEDGE 3
 
-//Item Codes
+// Item Codes
 #macro EMPTY 0
 #macro QUARTER 1
 #macro CHOCBAR 2
 
-//Map Positions
+// Inventory Details
+#macro INVEN_SLOTS 5
+#macro INVEN_WIDTH 64
+#macro INVEN_X_INIT (SCREEN_WIDTH - INVEN_WIDTH - 25)
+#macro INVEN_X_OFFSET (INVEN_WIDTH + 10)
+#macro INVEN_Y 25
+
+
+// Minimap Positions
 #macro MINIMAP_X 25
 #macro MINIMAP_Y 25
 #macro DATE_X MINIMAP_X
@@ -38,7 +43,7 @@
 #macro OUTLINE_WIDTH 3
 #macro OUTLINE_FIDELITY 8
 
-//Stage positions
+// Stage positions
 #macro ACTORL_X 0
 #macro ACTORL_Y 0
 #macro ACTORC_X ((SCREEN_WIDTH - ACTOR_WIDTH) / 2)
@@ -56,7 +61,7 @@
 #macro CHOICE_WIDTH 1000
 #macro CHOICE_HEIGHT 50
 
-//Date, Time and Major
+// Date, Time and Major
 #macro MONDAY 0
 #macro WEDNESDAY 1
 #macro FRIDAY 2
@@ -67,7 +72,7 @@
 #macro MAJOR_NULL -1
 #macro MAJOR_CHEM 0
 
-//Pointer integers
+// Pointer integers
 #macro PTR_COUNT 7
 #macro FAVOR_PLAGUE 0
 #macro FAVOR_MONA 1
@@ -77,7 +82,7 @@
 #macro EVENT_PLAGUEPARTNER 5
 #macro GLOBAL_PATH 6
 
-//Backdrop sizes
+// Backdrop sizes
 #macro SETTINGS_MARGIN_BORDER 20
 #macro SETTINGS_HEIGHT_TITLE 40
 #macro SETTINGS_MARGIN_TITLE 15
@@ -88,14 +93,14 @@
 #macro SETTINGS_WIDTH 450
 #macro MENU_MARGIN_BUTTON 50
 
-//Layer codes
+// Layer codes
 #macro SCREEN 0
 #macro STAGE 1
 #macro MENU 2
 #macro SUBMENU 3
 #macro SUBSUBMENU 4
 
-//Layer depths
+// Layer depths
 #macro SCREEN_FAR 25
 #macro SCREEN_MID 0
 #macro SCREEN_NEAR -25
@@ -112,5 +117,5 @@
 #macro SUBSUBMENU_MID -400
 #macro SUBSUBMENU_NEAR -425
 
-//Timing
+// Timing
 #macro SECOND 30
