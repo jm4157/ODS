@@ -28,9 +28,9 @@
 		// Get item and draw sprite
 		var inven_hold = global.inventory[i + 1]
 		if (inven_hold != EMPTY){
-			var inven_spr = script_execute(scrp_inttoitemspr, inven_hold);
+			var inven_spr = scrp_inttoitemspr(inven_hold);
 			
-			draw_sprite(inven_spr, -1, inven_x, INVEN_Y);
+			draw_sprite(inven_spr, -1, inven_x + 32, INVEN_Y + 32);
 		}
 	}
 	
