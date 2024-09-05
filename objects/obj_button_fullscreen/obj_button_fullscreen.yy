@@ -10,7 +10,7 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"text","path":"objects/obj_button_parent/obj_button_parent.yy",},"value":"\"Fullscreen: NULL\"",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"font","path":"objects/obj_button_parent/obj_button_parent.yy",},"value":"fnt_speech",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"_layer","path":"objects/obj_button_parent/obj_button_parent.yy",},"value":"SUBMENU",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"lay","path":"objects/obj_button_parent/obj_button_parent.yy",},"value":"SUBMENU",},
   ],
   "parent": {
     "name": "Settings",

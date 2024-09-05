@@ -1,14 +1,14 @@
 /// @description Add text setting to standard creation
 
 // Declare width and height
-var width =  400
-var height = 133
+var width =  400;
+var height = 133;
 
 // Set text
 if (global.fullscreen){
-	text = "Fullscreen"
+	text = "Fullscreen";
 } else {
-	text = "Windowed"
+	text = "Windowed";
 }
 
 // Text position

@@ -1,7 +1,5 @@
 /// @description Quit Game
-if (script_execute(scrp_layer_is_active, _layer)){
+
+if (is_active_layer(lay)){
 	game_end(0);
 }
-
-
-

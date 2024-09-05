@@ -1,8 +1,8 @@
 /// @description Get display info
 
 // Get Map date info as strings
-date = script_execute(scrp_inttodate, global.date)
-time = script_execute(scrp_inttotime, global.time)
+date = int_to_date(global.date);
+time = int_to_time(global.time);
 
 // Set position
 x = 0;

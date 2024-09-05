@@ -12,8 +12,7 @@
                 "text": "Trash this item",
                 "directions": [
                     {
-                        "action": "hold",
-                        "item": 0
+                        "action": "take"
                     }
                 ]
             },

@@ -1,6 +1,6 @@
 /// @description Continue saved game
 
-if (script_execute(scrp_layer_is_active, _layer)){
+if (is_active_layer(lay)){
 	// Change alpha back to unpressed state
 	image_alpha = 1;
 

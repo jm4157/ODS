@@ -1,0 +1,13 @@
+[
+    {
+        "action": "actor",
+        "actor": "oolong",
+        "emotion": "confused",
+        "position": "center"
+    },
+    {
+        "action": "dialogue",
+        "speech": "\"Oolong can't go this way right now.\"",
+        "speaker": "Oolong"
+    }
+]

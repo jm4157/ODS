@@ -1,3 +1,5 @@
+// A collection of defined macros
+
 // Important Sizes
 #macro SCREEN_WIDTH 1920
 #macro SCREEN_HEIGHT 1080
@@ -74,14 +76,22 @@
 #macro MAJOR_CHEM 0
 
 // Pointer integers
-#macro PTR_COUNT 7
+#macro PTR_COUNT 6
 #macro FAVOR_PLAGUE 0
 #macro FAVOR_MONA 1
 #macro FAVOR_PERCY 2
-#macro INVEN_CHOCBAR 3
-#macro EVENT_MONADISGUSTED 4
-#macro EVENT_PLAGUEPARTNER 5
-#macro GLOBAL_PATH 6
+#macro EVENT_MONADISGUSTED 3
+#macro EVENT_PLAGUEPARTNER 4
+#macro GLOBAL_PATH 5
+
+// Unprompted dialogue flag
+#macro UPMPT_COUNT 6
+#macro UPMPT_GAMEINTRO 0
+#macro UPMPT_CLASSINTRO 1
+#macro UPMPT_POSTMON 2
+#macro UPMPT_POSTWED 3
+#macro UPMPT_POSTFRI 4
+#macro UPMPT_LABDAY 5
 
 // Backdrop sizes
 #macro SETTINGS_MARGIN_BORDER 20

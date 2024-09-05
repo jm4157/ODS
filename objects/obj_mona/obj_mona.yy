@@ -8,8 +8,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_character_parent","path":"objects/obj_character_parent/obj_character_parent.yy",},"propertyId":{"name":"character","path":"objects/obj_character_parent/obj_character_parent.yy",},"value":"MONA",},
   ],
   "parent": {
-    "name": "Characters",
-    "path": "folders/Objects/Map Objects/Characters.yy",
+    "name": "Chemistry",
+    "path": "folders/Objects/Map Objects/Dialogue Prompts/Chemistry.yy",
   },
   "parentObjectId": {
     "name": "obj_character_parent",

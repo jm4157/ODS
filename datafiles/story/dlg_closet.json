@@ -1,0 +1,24 @@
+[
+    {
+        "action": "actor",
+        "actor": "oolong",
+        "emotion": "confused",
+        "position": "center"
+    },
+    {
+        "action": "dialogue",
+        "speech": "\"This door locked.\"",
+        "speaker": "Oolong"
+    },
+    {
+        "action": "actor",
+        "actor": "oolong",
+        "emotion": "neutral",
+        "position": "center"
+    },
+    {
+        "action": "dialogue",
+        "speech": "\"Oolong have feeling this door not going open until a future release.\"",
+        "speaker": "Oolong"
+    }
+]

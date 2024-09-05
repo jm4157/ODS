@@ -1,29 +1,23 @@
 /// @description Pick up item
 
 // If Oolong is holding something he can't pick stuff up
-if (global.inventory[INVEN_HAND] != EMPTY){
+if (!hand_empty() || !is_active_layer(SCREEN)){
 	return;
 }
 
-// Add to inventory if not full
-for (var i = 1; i < INVEN_SLOTS + 1; i++){
-	if (global.inventory[i] == EMPTY){
-		// Add to inventory
-		global.inventory[i] = item_code;
+// Otherwise pick up
+var taken = pickup(item_code);
+
+if (taken){
+	// If it was picked up, add it to picked up items then destroy this instance
+	global.pickup[array_length(global.pickup)] = id;
+	instance_destroy(id);
 		
-		// Add this to picked up items then destroy this instance
-		global.pickup[array_length(global.pickup)] = id;
-		instance_destroy(id);
-		
-		// Play pickup script if one exists
-		if (pickup_dlg != "0"){
-			script_execute(scrp_begindialogue, pickup_dlg)
-		}
-		
-		return;
+	// Play pickup script if one exists
+	if (pickup_dlg != "None"){
+		begin_dlg(pickup_dlg);
 	}
+} else{
+	// If inventory is full, Oolong says so
+	begin_dlg("pickup/dlg_pickup_full.json");
 }
-
-// If inventory full, play dialogue
-script_execute(scrp_begindialogue, "pickup/dlg_pickup_full.json")
-

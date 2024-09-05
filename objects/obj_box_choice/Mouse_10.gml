@@ -1,4 +1,5 @@
 /// @description Make transparent
-// You can write your code in this editor
 
-image_alpha = 0.5;
+if (is_active_layer(STAGE)){
+	image_alpha = 0.5;
+}

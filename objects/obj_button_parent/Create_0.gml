@@ -1,8 +1,8 @@
 /// @description Initialize sizes
 
 // Declare width and height
-var width =  400
-var height = 133
+var width =  400;
+var height = 133;
 
 // Text position
 draw_set_font(font);

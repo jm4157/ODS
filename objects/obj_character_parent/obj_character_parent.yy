@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Characters",
-    "path": "folders/Objects/Map Objects/Characters.yy",
+    "name": "Dialogue Prompts",
+    "path": "folders/Objects/Map Objects/Dialogue Prompts.yy",
   },
   "parentObjectId": null,
   "persistent": false,

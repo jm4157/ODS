@@ -1,5 +1,5 @@
 /// @description Start dialogue script
 
-if (visible && script_execute(scrp_layer_is_active, SCREEN)){
-	script_execute(scrp_begindialogue, "dlg_nsfw.json")
+if (visible && is_active_layer(SCREEN)){
+	begin_dlg("dlg_nsfw.json")
 }
