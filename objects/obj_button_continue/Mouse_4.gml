@@ -13,4 +13,3 @@ if (is_active_layer(lay)){
 		text : "No save game"
 	})
 }
-
