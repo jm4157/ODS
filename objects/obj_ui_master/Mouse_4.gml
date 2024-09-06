@@ -18,8 +18,8 @@ if (is_active_layer(SCREEN) && mouse_y >= INVEN_Y && mouse_y < INVEN_Y + INVEN_D
 	// Check if the mouse is over the trash can
 	inven_x -= INVEN_X_OFFSET;
 	if (mouse_x >= inven_x && mouse_x < inven_x + INVEN_DIAM){
-			slot = -1;
-		}
+		slot = -1;
+	}
 	
 	// If slot was actually selected, swap hand and slot
 	if (slot > 0){
@@ -29,6 +29,7 @@ if (is_active_layer(SCREEN) && mouse_y >= INVEN_Y && mouse_y < INVEN_Y + INVEN_D
 		
 		// Make hand display item
 		var inven_hold = global.inventory[INVEN_HAND]
+		audio_play_sound(snd_item_swap, PRTY_SFX, false);
 		
 		if (hand_empty()){
 			cursor_sprite = -1;

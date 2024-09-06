@@ -12,6 +12,11 @@
                 "text": "Trash this item",
                 "directions": [
                     {
+                        "action": "playsound",
+                        "sound": "TRASH",
+                        "stype": "sfx"
+                    },
+                    {
                         "action": "take"
                     }
                 ]

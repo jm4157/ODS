@@ -35,7 +35,6 @@
 #macro INVEN_Y 25
 #macro INVEN_HAND 0
 
-
 // Minimap Positions
 #macro MINIMAP_X 25
 #macro MINIMAP_Y 25
@@ -127,6 +126,10 @@
 #macro SUBSUBMENU_FAR -375
 #macro SUBSUBMENU_MID -400
 #macro SUBSUBMENU_NEAR -425
+
+// Sound Priorities
+#macro PRTY_SFX 50
+#macro PRTY_MSC 100
 
 // Timing
 #macro SECOND 30

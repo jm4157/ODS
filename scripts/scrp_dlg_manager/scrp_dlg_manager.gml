@@ -94,6 +94,10 @@ function manage_dlg(commands, stage){
 					dlg_offstage(command.position, stage);
 					manage_dlg(remains, stage);
 					break;
+				case "playsound":
+					dlg_play_sound(command.sound, command.stype);
+					manage_dlg(remains, stage);
+					break;
 				case "scene":
 					dlg_scene(command.destination, stage);
 					break;

@@ -16,8 +16,11 @@ if (taken){
 	// Play pickup script if one exists
 	if (pickup_dlg != "None"){
 		begin_dlg(pickup_dlg);
+	} else {
+		// Otherise just play pickup noise
+		audio_play_sound(snd_item_pickup, PRTY_SFX, false);
 	}
 } else{
 	// If inventory is full, Oolong says so
-	begin_dlg("pickup/dlg_pickup_full.json");
+	begin_dlg("pickup\\dlg_pickup_full.json");
 }

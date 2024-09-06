@@ -168,6 +168,21 @@ function dlg_offstage(pos, stage){
 }
 
 
+/// @function               dlg_play_sound(sound, stype);
+/// @param {string}  sound  Sound to play
+/// @param {string}  stype  Either music or sfx
+/// @description            Plays a sound
+
+function dlg_play_sound(sound, stype){
+	if(stype == "music"){
+		// TODO Stop music and play new music
+	} else{
+		// Play a sound effect
+		audio_play_sound(str_to_sound(sound), PRTY_SFX, false);
+	}
+}
+
+
 /// @function                     dlg_scene(destination, stage);
 /// @param {string}  destination  Room to go to
 /// @param {struct}  stage        Active stage instance

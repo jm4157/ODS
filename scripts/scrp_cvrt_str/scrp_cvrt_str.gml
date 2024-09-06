@@ -92,3 +92,22 @@ function str_to_pointer(variable){
 		default: show_error("'" + variable + "' not a valid global pointer.", true);
 	}
 }
+
+
+/// @function               str_to_sound(sound);
+/// @param {string}  sound  Sound to play
+/// @description            Returns a sound asset
+/// @pure
+
+function str_to_sound(sound){
+	switch (sound){
+		// SFX
+		case "SUCCESS": return snd_success;
+		case "FAIL": return snd_fail;
+		case "TRASH": return snd_item_trash;
+
+		// Music
+
+		default: show_error("'" + variable + "' not a valid global pointer.", true);
+	}
+}

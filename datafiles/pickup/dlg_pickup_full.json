@@ -6,6 +6,11 @@
         "position": "center"
     },
     {
+        "action": "playsound",
+        "sound": "FAIL",
+        "stype": "sfx"
+    },
+    {
         "action": "dialogue",
         "speech": "\"Oolong's pockets not have enough room for this.\"",
         "speaker": "Oolong"
