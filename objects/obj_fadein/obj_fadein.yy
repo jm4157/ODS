@@ -1,13 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_curtain",
-  "eventList": [],
+  "name": "obj_fadein",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Stage Objects",
-    "path": "folders/Objects/Stage Objects.yy",
+    "name": "Screen Transitions",
+    "path": "folders/Objects/Map Objects/Screen Transitions.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -23,14 +26,9 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"image_alpha","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0.7","varType":0,},
-  ],
+  "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_fade",
-    "path": "sprites/spr_fade/spr_fade.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

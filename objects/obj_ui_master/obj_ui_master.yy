@@ -7,6 +7,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -38,8 +39,8 @@
     "path": "sprites/spr_map_school/spr_map_school.yy",
   },
   "spriteMaskId": {
-    "name": "spr_curtain",
-    "path": "sprites/spr_curtain/spr_curtain.yy",
+    "name": "spr_fade",
+    "path": "sprites/spr_fade/spr_fade.yy",
   },
   "visible": true,
 }

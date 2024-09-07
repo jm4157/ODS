@@ -109,6 +109,7 @@
 #macro MENU 2
 #macro SUBMENU 3
 #macro SUBSUBMENU 4
+#macro TRANSITION 5
 
 // Layer depths
 #macro SCREEN_FAR 25
@@ -126,6 +127,7 @@
 #macro SUBSUBMENU_FAR -375
 #macro SUBSUBMENU_MID -400
 #macro SUBSUBMENU_NEAR -425
+#macro OVERLAY -500
 
 // Sound Priorities
 #macro PRTY_SFX 50
@@ -133,3 +135,4 @@
 
 // Timing
 #macro SECOND 30
+#macro FADE_SPEED 1
