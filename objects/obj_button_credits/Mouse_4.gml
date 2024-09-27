@@ -1,4 +1,4 @@
-/// @descriptio Display credits
+/// @description Display credits
 
 if (is_active_layer(lay)){
 	// Change alpha back to unpressed state

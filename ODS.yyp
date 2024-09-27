@@ -87,7 +87,7 @@
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"dlg_plague_item_neutral.json","CopyToMask":-1,"filePath":"datafiles/chemistry/plague",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"i-dlg_plague_3.2H.json","CopyToMask":-1,"filePath":"datafiles/chemistry/plague",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"credits.json","CopyToMask":-1,"filePath":"datafiles",},
-    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"dlg_example.json","CopyToMask":3035426170322551022,"filePath":"datafiles",},
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"dlg_example.json","CopyToMask":3035426170322551022,"filePath":"datafiles/dev",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"dlg_mona_0.json","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"dlg_nsfw.json","CopyToMask":-1,"filePath":"datafiles",},
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"dlg_test_all.json","CopyToMask":-1,"filePath":"datafiles",},
