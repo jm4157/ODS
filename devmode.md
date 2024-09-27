@@ -22,7 +22,7 @@
 1) Open the **GameMaker** app.
 2) Select the big button labelled *Open*.
 3) This should bring you to the `GameMakerStudio2` folder. Open `ODS-main`, then choose `ODS.ypp`. The Oolong Dating Sim project will open up.
-4) Press *F5* on your keyboard to run the game. It'll take a little while to load, especially the first time, but if the Oolong Dating Sim title screen pops up you've done it correctly!
+4) Press *F5* on your keyboard to run the game. This will require you to hold the *FN* key at the bottom of your keyboard while you press the *F5* key at the top. It'll take a little while to load, especially the first time, but if the Oolong Dating Sim title screen pops up you've done it correctly!
 5) In the future opening the **GameMaker** app will show **ODS** under **Recent Projects**. You can click on it to bring up the ODS project faster.
 
 ## Dialogue Testing Mode
